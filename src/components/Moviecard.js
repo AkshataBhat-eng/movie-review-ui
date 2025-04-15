@@ -1,4 +1,7 @@
-import { movieDB } from "@/database/movies";
+'use client'
+import MovieRating from "./MovieRating";
+
+
 const MovieCard = (props) => {
   const movie = [
     {
@@ -24,9 +27,9 @@ const MovieCard = (props) => {
             Released on {props.movieReleaseYear?.date},{" "}
             {props.movieReleaseYear?.year}
           </p>
-          <p className="text-[#AD0B41] font-semibold text-md">
-            {props.rating}/5
-          </p>
+          <div className="rating">
+            <MovieRating initialRating={props.movieRating}/>
+          </div>
         </div>
       </div>
     </div>

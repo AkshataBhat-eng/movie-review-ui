@@ -11,8 +11,8 @@ export default function Home() {
               key={index}
               moviePoster={ele.moviePoster}
               movieName={ele.movieName}
-              movieRelase={ele.movieReleaseYear}
-              movieRating={ele.hasRating}
+              movieReleaseYear={ele.movieReleaseYear}
+              movieRating={ele.movieRating}
             />
           ))}
         </div>
