@@ -35,3 +35,23 @@ body {
 .movie-details {
   background: linear-gradient(to bottom, transparent 0%, black 100%);
 }
+
+.elevated-button {
+  background-color: #6200ee;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(182, 0, 61, 0.16);
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.elevated-button:hover {
+  box-shadow: 0px 6px 12px #b6003d3d;
+  transform: translateY(-1px);
+}
+
+.rating-button {
+  
+}

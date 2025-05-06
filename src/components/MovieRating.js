@@ -1,14 +1,11 @@
-"use client"
-import { useState } from 'react';
+"use client";
+import { useState } from "react";
 
-const MovieRating = ({
-  maxStars = 5,
-  initialRating = 0
-}) => {
+const MovieRating = ({ maxStars = 5, initialRating = 0 }) => {
   const [rating, setRating] = useState(initialRating);
 
   const renderStar = (index) => {
-    const current = rating;
+    const current = initialRating;
     let fillPercent = 0;
 
     if (current >= index) {
@@ -18,10 +15,7 @@ const MovieRating = ({
     }
 
     return (
-      <span
-        key={index}
-        className="text-3xl relative inline-block"
-      >
+      <span key={index} className="text-3xl relative inline-block">
         <span className="text-gray-300">★</span>
         <span
           className="absolute top-0 left-0 overflow-hidden text-yellow-400"
