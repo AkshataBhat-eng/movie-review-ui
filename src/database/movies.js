@@ -6,7 +6,7 @@ export const movieDB = [
     movieReleaseYear: {date: "5 October", year: 2018},
     hasRating: null,
     hasReview: null,
-    movieRating: 2
+    movieRating: 0
   },
   {
     movieName: "Bangalore Days",
@@ -38,7 +38,7 @@ export const movieDB = [
     movieReleaseYear: {date: "15 October", year: 1999},
     hasRating: null,
     hasReview: null,
-    movieRating: 2.5
+    movieRating: 0
   },
   {
     movieName: "Harry Potter and the Prisoner of Azkaban",
@@ -70,7 +70,7 @@ export const movieDB = [
     movieReleaseYear: {date: "7 April", year: 2021},
     hasRating: null,
     hasReview: null,
-    movieRating: 2
+    movieRating: 0
   },
   {
     movieName: "Jurassic Park",
@@ -94,7 +94,7 @@ export const movieDB = [
     movieReleaseYear: {date: "30 September", year: 2022},
     hasRating: null,
     hasReview: null,
-    movieRating: 2
+    movieRating: 0
   },
   {
     movieName: "Kumbalangi Nights",
@@ -174,7 +174,7 @@ export const movieDB = [
     movieReleaseYear: {date: "14 December", year: 2018},
     hasRating: null,
     hasReview: null,
-    movieRating: 5
+    movieRating: 0
   },
   {
     movieName: "Taare Zameen Par",
@@ -222,7 +222,7 @@ export const movieDB = [
     movieReleaseYear: {date: "18 October", year: 2024},
     hasRating: null,
     hasReview: null,
-    movieRating: 2
+    movieRating: 0
   },
   {
     movieName: "Toy Story",
@@ -238,6 +238,6 @@ export const movieDB = [
     movieReleaseYear: {date: "15 July", year: 2011},
     hasRating: null,
     hasReview: null,
-    movieRating: 2
+    movieRating: 0
   },
 ]

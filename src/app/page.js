@@ -1,3 +1,4 @@
+import AllMovies from "@/components/AllMovies";
 import MovieCard from "@/components/Moviecard";
 import { movieDB } from "@/database/movies";
 
@@ -15,12 +16,13 @@ export default function Home() {
               movieRating={ele.movieRating}
             />
           ))} */}
-          <MovieCard
+          <AllMovies />
+          {/* <MovieCard
               moviePoster={movieDB[0].moviePoster}
               movieName={movieDB[0].movieName}
               movieReleaseYear={movieDB[0].movieReleaseYear}
               movieRating={movieDB[0].movieRating}
-            />
+            /> */}
         </div>
       </main>
     </div>
